@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26494161'))
 API_HASH = environ.get('API_HASH', '55da841f877d16a3a806169f3c5153d3')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7234362865:AAHvHpi72oPnAhL2qOezE_SUTlIVlBvflBw")
 REACTIONS = [
     "🔥", "❤️", "😍", "⚡", "😇",
     "🤩", "🎉", "🤗", "🤩", "😎",
