@@ -9,7 +9,7 @@ from Script import script
 from pyrogram.errors import ChatAdminRequired
 import asyncio 
 
-"""-----------------------------------------https://t.me/Movie_Star_File_Search_Bot--------------------------------------"""
+"""-----------------------------------------https://t.me/ReZii_AUTO_FILTER_BOT--------------------------------------"""
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
@@ -38,7 +38,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton("🍁 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ 🍁", url="https://t.me/MovieStar1711")
+                    InlineKeyboardButton("🍁 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ 🍁", url="http://t.me/Af_mhakal")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -58,7 +58,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url=f'https://t.me/MovieStar1711')
+                                                                           InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url=f'http://t.me/Af_mhakal')
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
@@ -83,7 +83,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-                  InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url="https://t.me/MovieStar1711")
+                  InlineKeyboardButton("📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌", url="http://t.me/Af_mhakal")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -122,7 +122,7 @@ async def disable_chat(bot, message):
     await message.reply('Chat Successfully Disabled')
     try:
         buttons = [[
-            InlineKeyboardButton('📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌', url=f'https://t.me/MovieStar1711')
+            InlineKeyboardButton('📌 ᴄᴏɴᴛᴀᴄᴛ ꜱᴜᴘᴘᴏʀᴛ 📌', url=f'http://t.me/Af_mhakal')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
