@@ -26,12 +26,12 @@ REACTIONS = [
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/0b5bb9dc8fc3b7b1970db.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/d85ba9e52d1961d6f6e5f.jpg https://graph.org/file/fe320e9eeb76d884ef826.jpg https://graph.org/file/12535ced7a50682c5ceb6.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/d85ba9e52d1961d6f6e5f.jpg https://graph.org/file/12535ced7a50682c5ceb6.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/708059d26e387e06cd6aa.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8169830d821.jpg'))
-CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
+CODE = (environ.get('CODE', 'https://graph.org/file/d85ba9e52d1961d6f6e5f.jpg'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', ''))
