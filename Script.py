@@ -247,7 +247,12 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 """ 
    # PLEASE DO NOT REMOVE ANY CREDITS ❤️‍🩹
     
-    CAPTION = """ 📂 <i><a href="https://t.me/AF_Mallu">{file_name}</a></i>\n\n"""
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+
+<b> Size ⚙️: {file_size}
+○Jᴏɪɴ :<a href="https://t.me/AF_Mhakal">Cʜᴀɴɴᴇʟ</a>
+○Mᴏᴠɪᴇ : :<a href="https://t.me/AF_Mhakal">Gʀᴏᴜᴘ</a>
+</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
